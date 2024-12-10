@@ -1,5 +1,5 @@
 import React from 'react'
-import './Dashboard.css'
+import './dashboard.css'
 import Sidebar from '../Dashboard/Components/Sidebar Section/Sidebar'
 import Body from '../Dashboard/Components/Body Section/Body'
 

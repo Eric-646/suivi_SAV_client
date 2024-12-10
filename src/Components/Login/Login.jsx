@@ -1,6 +1,6 @@
 import React from "react";
-import "./Login.css";
-import "./../../App.css"
+import "./login.css";
+import "./../../app.css"
 import { Link } from "react-router-dom";
 
 import video from "../../LoginAssets/video.mp4";
