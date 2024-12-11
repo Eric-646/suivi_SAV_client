@@ -1,5 +1,5 @@
 import React from 'react'
-import './Listing.css'
+import './listing.css'
 
 const Listing = () => {
   return (

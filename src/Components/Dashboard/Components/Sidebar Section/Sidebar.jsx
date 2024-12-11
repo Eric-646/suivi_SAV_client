@@ -5,7 +5,7 @@ import './../../dashboard.css'
 import logo from "../../Assets/logo.jpg";
 import { IoMdSpeedometer } from "react-icons/io";
 import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from "react-icons/md";
-import { BsTrophy, BsCreditCard2Front } from "react-icons/bs";
+import { BsTrophy, BsCreditCard2Front, BsQuestionCircle } from "react-icons/bs";
 import { AiOutlinePieChart } from "react-icons/ai";
 import { BiTrendingUp } from "react-icons/bi";
 
@@ -50,7 +50,7 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <div className="settingDiv">
+      <div className="settingsDiv">
         <h3 className="divTitle">SETTINGS</h3>
         <ul className="menuLists grid">
           <li className="listItem">
@@ -81,6 +81,18 @@ const Sidebar = () => {
             </a>
           </li>
         </ul>
+      </div>
+
+      <div className="sideBarCard">
+      <BsQuestionCircle  className="icon"/>
+      <div className="cardContent">
+        <div className="circle1"></div>
+        <div className="circle2"></div>
+
+        <h3>Help Center</h3>
+        <p>Having trouble in Planti, please contact us from for more questions.</p>
+        <button className="btn">Go to help center</button>
+      </div>
       </div>
     </div>
   );
