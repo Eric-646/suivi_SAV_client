@@ -32,7 +32,6 @@
     --normalFontSize: 0.938rem;
     --smallFontSize: 0.813rem;
     --smallestFontSize: 0.75rem;
-
   }
 
   html{
@@ -49,6 +48,7 @@
 
   .icon{
     font-size: var(--h2FontSize);
+    cursor: pointer;
   }
 
   img{

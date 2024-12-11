@@ -1,10 +1,14 @@
 import React from "react";
 import "./sidebar.css";
-import './../../dashboard.css'
+import "./../../dashboard.css";
 
 import logo from "../../Assets/logo.jpg";
 import { IoMdSpeedometer } from "react-icons/io";
-import { MdDeliveryDining, MdOutlineExplore, MdOutlinePermContactCalendar } from "react-icons/md";
+import {
+  MdDeliveryDining,
+  MdOutlineExplore,
+  MdOutlinePermContactCalendar,
+} from "react-icons/md";
 import { BsTrophy, BsCreditCard2Front, BsQuestionCircle } from "react-icons/bs";
 import { AiOutlinePieChart } from "react-icons/ai";
 import { BiTrendingUp } from "react-icons/bi";
@@ -14,7 +18,7 @@ const Sidebar = () => {
     <div className="sideBar grid">
       <div className="logoDiv flex">
         <img src={logo} alt="Image Name" />
-        <h2>Planti.</h2>
+        <h2>Big Bijoux</h2>
       </div>
 
       <div className="menuDiv">
@@ -83,17 +87,20 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      <div className="sideBarCard">
-      <BsQuestionCircle  className="icon"/>
-      <div className="cardContent">
-        <div className="circle1"></div>
-        <div className="circle2"></div>
+      {/* <div className="sideBarCard">
+        <BsQuestionCircle className="icon" />
+        <div className="cardContent">
+          <div className="circle1"></div>
+          <div className="circle2"></div>
 
-        <h3>Help Center</h3>
-        <p>Having trouble in Planti, please contact us from for more questions.</p>
-        <button className="btn">Go to help center</button>
-      </div>
-      </div>
+          <h3>Help Center</h3>
+          <p>
+            Having trouble in Big Bijoux, please contact us from for more
+            questions.
+          </p>
+          <button className="btn">Go to help center</button>
+        </div>
+      </div> */}
     </div>
   );
 };
