@@ -87,7 +87,7 @@ const Sidebar = () => {
         </ul>
       </div>
 
-      {/* <div className="sideBarCard">
+      <div className="sideBarCard">
         <BsQuestionCircle className="icon" />
         <div className="cardContent">
           <div className="circle1"></div>
@@ -100,7 +100,7 @@ const Sidebar = () => {
           </p>
           <button className="btn">Go to help center</button>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

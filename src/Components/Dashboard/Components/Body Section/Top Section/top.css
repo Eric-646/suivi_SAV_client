@@ -191,4 +191,11 @@
 .topSection .cardSection .leftCard .main .textDiv .link:hover .icon {
   transform: translateX(10px);
   transition: 0.3s ease;
+}
+.topSection .cardSection .leftCard .main .imgDiv {
+  transform: translateY(-20px);
+}
+.topSection .cardSection .leftCard .main .imgDiv img {
+  width: 150px;
+  height: 170px;
 }/*# sourceMappingURL=top.css.map */
