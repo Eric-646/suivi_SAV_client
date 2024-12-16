@@ -1,7 +1,7 @@
 import React from "react";
 import "./top.css";
 
-import { BsSearch, BsArrowRightShort } from "react-icons/bs";
+import { BsSearch, BsArrowRightShort, BsQuestionCircle } from "react-icons/bs";
 import { TbMessageCircle } from "react-icons/tb";
 import { MdOutlineNotificationsNone } from "react-icons/md";
 
@@ -74,6 +74,21 @@ const Top = () => {
               <img src={img2} alt="Image Name" />
             </div>
           </div>
+
+           <div className="sideBarCard">
+                  <BsQuestionCircle className="icon" />
+                  <div className="cardContent">
+                    <div className="circle1"></div>
+                    <div className="circle2"></div>
+          
+                    <h3>Help Center</h3>
+                    <p>
+                      Having trouble in Big Bijoux, please contact us from for more
+                      questions.
+                    </p>
+                    <button className="btn">Go to help center</button>
+                  </div>
+                </div>
         </div>
       </div>
     </div>
